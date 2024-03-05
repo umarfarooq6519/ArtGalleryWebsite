@@ -6,9 +6,12 @@ export default function HomePage() {
     <>
       <Header />
       <section className="Home h-screen flex flex-col px-2 text-center">
-        <div id="home-main" className="py-10 md:py-32 flex flex-col items-center gap-4">
+        <div
+          id="home-main"
+          className="py-10 md:py-32 flex flex-col items-center gap-4"
+        >
           <div className="flex items-end justify-center w-full">
-            <h1 className="text-7xl md:text-8xl serif">
+            <h1 className="text-7xl md:text-8xl serif drop-shadow-lg">
               Welcome <span className="text-3xl">to my</span>
               <br />
               Art Gallery

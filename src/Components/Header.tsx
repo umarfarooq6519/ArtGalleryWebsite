@@ -1,8 +1,8 @@
 export default function Header() {
   return (
-    <section className="Header flex items-center justify-between border-b border-gray-300 px-1">
+    <section className="Header flex items-center justify-between px-3 md:px-6 md:pt-3">
       <a href="#">
-        <h1 className="text-4xl md:text-5xl serif hover:tracking-widest duration-300 mt-1">
+        <h1 className="text-4xl md:text-5xl serif drop-shadow-lg hover:tracking-widest duration-300 mt-1">
           Amna.
         </h1>
       </a>

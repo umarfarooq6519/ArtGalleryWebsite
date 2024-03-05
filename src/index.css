@@ -2,7 +2,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* background-image: url(./assets//blob-scene-haikei.svg); */
 }
 
 .serif {
