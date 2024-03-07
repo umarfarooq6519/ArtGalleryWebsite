@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <section className="Home flex h-screen mb-4 xl:h-fit flex-col xl:flex-row xl:justify-between items-center text-center">
+      <section className="Home flex h-screen xl:h-fit flex-col xl:flex-row xl:justify-between items-center text-center">
         <div className="flex-grow">
           <div
             id="home-main"
@@ -77,7 +77,7 @@ export default function HomePage() {
 
         <div
           id="home-img"
-          className="text-left mx-4 md:w-9/12 xl:w-5/12 h-full xl:h-5/6 md:ml-6 xl:ml-0 border-2 border-gray-400 xl:mr-6 rounded-xl"
+          className="text-left mx-4 mb-3 md:w-9/12 xl:w-5/12 h-full xl:h-5/6 md:ml-6 xl:ml-0 border-2 border-gray-400 xl:mr-6 rounded-xl"
         >
           <span className="flex gap-1 items-center absolute text-white">
             <h2 className={`${hoverStyling}`}>Latest Collection</h2>
@@ -86,7 +86,7 @@ export default function HomePage() {
           <img
             src={imgPath}
             alt="Your Image"
-            className="object-cover w-full h-full -ml-2 -mt-2  xl:-ml-3 xl:-mt-3 xl:mb-3  rounded-xl"
+            className="object-cover w-full h-full -ml-2 -mt-2 mb-2  xl:-ml-3 xl:-mt-3 xl:mb-3  rounded-xl"
           />
         </div>
       </section>
