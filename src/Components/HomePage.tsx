@@ -14,7 +14,7 @@ export default function HomePage() {
         <div className="flex-grow">
           <div
             id="home-main"
-            className="py-8 md:py-20 lg:py-32 xl:py-24 flex flex-grow flex-col items-center gap-4 md:gap-6 xl:gap-10 px-3"
+            className="py-8 md:py-20 lg:py-32 xl:py-24 flex flex-grow flex-col items-center gap-3 md:gap-6 xl:gap-10 px-3"
           >
             <div className="flex items-end justify-center w-full">
               <h1 className="text-7xl md:text-8xl serif drop-shadow-lg">
