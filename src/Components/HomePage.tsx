@@ -9,16 +9,16 @@ export default function HomePage() {
 
   return (
     <>
-      <section className="Home h-screen flex flex-col xl:flex-row xl:justify-between  text-center">
+      <Header />
+      <section className="Home flex h-screen mb-4 xl:h-fit flex-col xl:flex-row xl:justify-between items-center text-center">
         <div className="flex-grow">
-          <Header />
           <div
             id="home-main"
-            className="py-10 md:py-20 lg:py-32 xl:py-24 flex flex-grow flex-col items-center gap-4 md:gap-6 xl:gap-10 px-3"
+            className="py-8 md:py-20 lg:py-32 xl:py-24 flex flex-grow flex-col items-center gap-4 md:gap-6 xl:gap-10 px-3"
           >
             <div className="flex items-end justify-center w-full">
               <h1 className="text-7xl md:text-8xl serif drop-shadow-lg">
-                Welcome <span className="text-3xl">to my</span>
+                Welcome <span className="text-2xl md:text-3xl">to my</span>
                 <br />
                 Art Gallery
               </h1>
@@ -67,7 +67,7 @@ export default function HomePage() {
               </span>
             </div>
             <span
-              className={`flex items-center gap-2 w-full justify-center pt-2 ${hoverStyling}`}
+              className={`flex items-center  gap-2 w-full justify-center pt-2 ${hoverStyling}`}
             >
               Follow on Instagram
               <i className="fa-solid fa-arrow-right"></i>
@@ -75,15 +75,18 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div id="home-img" className="flex-grow text-left xl:w-2/12">
-          <span className="flex gap-1 items-center xl:absolute xl:right-10 xl:top-6 xl:text-[#F3EFEA] pl-3">
+        <div
+          id="home-img"
+          className="text-left mx-4 md:w-9/12 xl:w-5/12 h-full xl:h-5/6 md:ml-6 xl:ml-0 border-2 border-gray-400 xl:mr-6 rounded-xl"
+        >
+          <span className="flex gap-1 items-center absolute text-white">
             <h2 className={`${hoverStyling}`}>Latest Collection</h2>
             <i className="fa-solid fa-arrow-right"></i>
           </span>
           <img
             src={imgPath}
             alt="Your Image"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full -ml-2 -mt-2  xl:-ml-3 xl:-mt-3 xl:mb-3  rounded-xl"
           />
         </div>
       </section>
